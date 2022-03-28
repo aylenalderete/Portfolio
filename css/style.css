@@ -7298,10 +7298,10 @@ a {
   -webkit-transition: .3s all ease;
   -o-transition: .3s all ease;
   transition: .3s all ease;
-  color: #f05d23; }
+  color: #000; }
   a:hover, a:focus {
     text-decoration: none;
-    color: #f05d23;
+    color: #000;
     outline: none !important; }
 
 h1, h2, h3, h4, h5,
@@ -7445,7 +7445,7 @@ h1, h2, h3, h4, h5,
           #colorlib-aside .colorlib-footer ul li a:hover, #colorlib-aside .colorlib-footer ul li a:active, #colorlib-aside .colorlib-footer ul li a:focus {
             text-decoration: none;
             outline: none;
-            color: #f05d23; }
+            color: #000; }
 
 #colorlib-main {
   width: 100%;
@@ -7656,7 +7656,7 @@ h1, h2, h3, h4, h5,
       -ms-transform: translateY(-50%);
       transform: translateY(-50%);
       margin-top: -10px;
-      color: #f05d23 !important;
+      color: #000 !important;
       -moz-transition: all 0.7s ease;
       -o-transition: all 0.7s ease;
       -webkit-transition: all 0.7s ease;
@@ -8076,12 +8076,12 @@ textarea.form-control {
   .footer-small-nav > li a {
     margin: 0 10px 10px 0; }
     .footer-small-nav > li a:hover, .footer-small-nav > li a:focus {
-      color: #f05d23; }
+      color: #000; }
 
 .media .ftco-icon {
   width: 100px; }
   .media .ftco-icon span {
-    color: #f05d23; }
+    color: #000; }
 
 .ftco-social {
   padding: 0; }
@@ -8217,7 +8217,7 @@ textarea.form-control {
     margin-bottom: 4px;
     font-weight: 400; }
     .block-27 ul li a, .block-27 ul li span {
-      border: 1px solid #f05d23;
+      border: 1px solid #000;
       text-align: center;
       display: inline-block;
       width: 40px;
@@ -8225,7 +8225,7 @@ textarea.form-control {
       line-height: 40px;
       border-radius: 50%; }
     .block-27 ul li.active a, .block-27 ul li.active span {
-      background: #f05d23;
+      background: #000;
       color: #fff;
       border: 1px solid transparent; }
 
@@ -8250,7 +8250,7 @@ textarea.form-control {
     .block-21 .text .heading a {
       color: #000000; }
       .block-21 .text .heading a:hover, .block-21 .text .heading a:active, .block-21 .text .heading a:focus {
-        color: #f05d23; }
+        color: #000; }
   .block-21 .text .meta > div {
     display: inline-block;
     font-size: 12px;
