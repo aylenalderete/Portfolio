@@ -32,7 +32,9 @@
 	<link href="https://fonts.googleapis.com/css2?family=Lora&family=Noto+Serif&display=swap" rel="stylesheet">
 
 	<script src="https://kit.fontawesome.com/2a2b8741ef.js" crossorigin="anonymous"></script>
+    
   </head>
+  <script src="https://www.retainable.io/assets/retainable/rss-embed/retainable-rss-embed.js"></script>
   <body>
 
 	<div id="colorlib-page">
@@ -42,8 +44,8 @@
 			<nav id="colorlib-main-menu" role="navigation">
 				<ul>
 					<li><a href="index.html">Sobre mi</a></li>
-					<li class="colorlib-active"><a href="proyectos.html">Proyectos</a></li>
-					<li><a href="escritos.html">Publicaciones</a></li>
+					<li><a href="proyectos.html">Proyectos</a></li>
+                    <li class="colorlib-active"><a href="escritos.html">Publicaciones</a></li>
 					<li><a href="contacto.html">Contacto</a></li>
 				</ul>
 			</nav>
@@ -58,7 +60,16 @@
 			</div>
 		</aside> <!-- END COLORLIB-ASIDE -->
 		<div id="colorlib-main">
-			<section class="ftco-section-2">
+            <div id="retainable-rss-embed" 
+                data-rss="https://medium.com/feed/@aylenalderete"
+                data-maxcols="3" 
+                data-layout="grid" 
+                data-poststyle="inline" 
+                data-readmore="Read the rest" 
+                data-buttonclass="btn btn-primary" 
+                data-offset="-100">
+            </div>
+			<!-- <section class="ftco-section-2">
 				<div class="photograhy">
 					<div class="row no-gutters">
 						<div class="col-md-3">
@@ -171,7 +182,9 @@
 						</div>
 					</div>
 				</div>
-			</section>
+			</section> -->
+
+
 	    <!-- <footer class="ftco-footer ftco-bg-dark ftco-section">
 	      <div class="container px-md-5">
 	        <div class="row mb-5">
